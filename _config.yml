@@ -1,4 +1,5 @@
 name: squarebox
+site.url: /atiliostone
 markdown: redcarpet
 highlighter: pygments
 excerpt_separator: <!--more-->
