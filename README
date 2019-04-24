@@ -1,2 +1,6 @@
-1. For full documentation, please visit http://jekyllrb.com/docs/home/
-2. If you have any other questions, please contact honryou@gmail.com for support.
+1. brew install gnupg
+2. curl -sSL https://rvm.io/mpapis.asc | gpg --import -
+3. curl -sSL https://rvm.io/pkuczynski.asc | gpg --import -
+4. \curl -sSL https://get.rvm.io | bash -s stable --ruby
+5. For full documentation, please visit http://jekyllrb.com/docs/home/
+6. If you have any other questions, please contact honryou@gmail.com for support.
