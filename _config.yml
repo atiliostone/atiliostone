@@ -1,7 +1,7 @@
 name: Atilio Stone Design LLC 
 url: /atiliostone
 markdown: redcarpet
-highlighter: pygments
+rouge: pygments
 excerpt_separator: <!--more-->
 plugins:
   - jekyll-paginate
