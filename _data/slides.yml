@@ -4,18 +4,18 @@
     <h2>This is Atilio Stone Design LLC</h2>
     <p>A Handyman & Renovation Business.</p>
     <div class='two spacing'></div>
-    <a class='button boxed'>View Services</a>
+    <a href="#why" class='button boxed'>View Services</a>
 - image: slide-2.jpg
   desc_location: left
   desc:
     <h2 style="color:#fbb207">Focused Renovation</h2>
     <p>We Focus on every detail element.</p>
     <div class='two spacing'></div>
-    <a class='button boxed'>Learn More</a>
+    <a href="#why" class='button boxed'>Learn More</a>
 - image: slide-3.jpg
   desc_location: left
   desc:
     <h2>Fair Pricing</h2>
     <p>Let you save money when it counts</p>
     <div class='two spacing'></div>
-    <a class='button boxed'>Learn More</a>
+    <a href="#why" class='button boxed'>Learn More</a>
