@@ -724,3 +724,22 @@ ul.info i:hover {
   font-size: 0.875rem;
   color: #999999;
 }
+
+
+.top_inner::before {
+
+    background-image: linear-gradient(to bottom, transparent,rgba(12,182,239,0.5));
+
+}
+
+.top_inner {
+    color: #FFF;
+    background-color: #193c9d;
+    background-color: rgba(25,60,157,0.95);
+}
+
+.top_outer {
+    background-image: url("https://preview.lsvr.sk/bluecollar/wp-content/uploads/sites/4/2018/11/section_bg_01.jpg");
+    background-position: 50% 33px;
+    display: block;
+}

@@ -28,39 +28,7 @@ works:
     title: Flower book
     category: Design &amp; Development
 
-services:
-  -
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color:
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color:
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color:
-  -
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color: yellow
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color: yellow
-    - title: Web design
-      icon: layout
-      desc:
-        Accusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-      color: yellow
+
 
 milestones:
   - from: 0
@@ -152,7 +120,38 @@ members:
 
 {% include slider.html %}
 
+<div id="why">
 {% include whys.html %}
+</div>
+
+<div id="about">
+<div  class='full light-yellow'>
+  <div class='row'>
+    <div class='special-title centered-text'>
+      <i class='icon-users'></i>
+      <h2>Who we are</h2>
+      <p>Professional, Reliable and Standing behind our work</p>
+      <p class='shortline'></p>
+    </div>
+    <div class='spacing'></div>
+    <div class='spacing'></div>
+  </div>
+  <div class='row'>
+    <div class='medium-6 large-6 columns'>
+      <h2 class="lsvr-bluecollar-intro__title"> <strong>25 Years of Experience</strong><br>in Home Maintenance Business</h2>
+
+      <p>Home repair involves the diagnosis and resolution of problems in a home, and is related to home maintenance to avoid such problems. Many types of repairs are do it yourself (DIY) projects, while others may be so complicated.</p>
+    </div>
+    <div class='medium-6 large-6 columns'>
+      <div >
+        <p class="lsvr-bluecollar-intro__image-wrapper"> 
+          <img src='{{site.url}}/images/47187716.png' style="display: table-cell;width: 60%;" alt="<strong>25 Years of Experience</strong><br>in Home Maintenance Business">
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 <div class='full'>
   <div class='row'>
@@ -186,10 +185,10 @@ members:
   <div class='row'>
     <div class='call-to-action light'>
       <div class='medium-9 large-9 columns'>
-        <p class='left'>A Creative, Modern, Clean &amp; Responsive Template, what are you waiting for?</p>
+        <p class='left'>Need help and tired of estimates and wasted time, what are you waiting for?</p>
       </div>
       <div class='medium-3 large-3 columns'>
-        <a class='button' href='#'>Purchase Now</a>
+        <a class='button' href='#'>Contact us Now</a>
       </div>
     </div>
   </div>
@@ -197,7 +196,7 @@ members:
 </div>
 
 
-<div class='full white'>
+<!-- <div class='full white'>
   <div class='row'>
     <div class='special-title centered-text'>
       <i class='icon-map'></i>
@@ -222,9 +221,9 @@ members:
       <div class="spacing"></div>
     {% endunless %}
   {% endfor %}
-</div>
+</div> -->
 
-<div class='full bg-1'>
+<!-- <div class='full bg-1'>
   <div class='row'>
     {% for milestone in page.milestones %}
       <div class='medium-3 large-3 columns'>
@@ -235,46 +234,10 @@ members:
       </div>
     {% endfor %}
   </div>
-</div>
+</div> -->
 
 
-<div class='full light-yellow'>
-  <div class='row'>
-    <div class='special-title centered-text'>
-      <i class='icon-users'></i>
-      <h2>Who we are</h2>
-      <p>We are happy to know you are happy</p>
-      <p class='shortline'></p>
-    </div>
-    <div class='spacing'></div>
-    <div class='spacing'></div>
-  </div>
-  <div class='row'>
-    <div class='medium-6 large-6 columns'>
-      <p>
-        <span class='drop-letters'>We</span>
-        are est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae. Nihil quia et omnis blanditiis eius suscipit quos. Est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae.
-      </p>
-      <p>Est unde inventore sed amet est in voluptas cum ipsa ut sunt minus. Nihil quia et omnis blanditiis eius suscipit quos repudiandae. Nihil quia et omnis blanditiis eius suscipit quos. Nihil quia et omnis blanditiis eius suscipit quos.</p>
-    </div>
-    <div class='medium-6 large-6 columns'>
-      <ul class='bars'>
-        {% for bar in page.bars %}
-          <li>
-            <h4>
-              {{bar.title}}
-              <strong>{{bar.percent}}%</strong>
-            </h4>
-            <p class='highlighted' data-percent='{{bar.percent}}'></p>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
-
-
-<div class='members'>
+<!-- <div class='members'>
   <div class='full light-yellow no-padding'>
     <div class='row'>
       {% for member in page.members %}
@@ -293,8 +256,8 @@ members:
         </div>
       {% endfor %}
     </div>
-  </div>
-  <div class='full white'>
+  </div> -->
+  <!-- <div class='full white'>
     <div class='row'>
       {% for member in page.members %}
         {% if forloop.first %}
@@ -320,11 +283,11 @@ members:
 
     </div>
   </div>
-</div>
+</div> -->
 
-{% include testimonials.html bg="bg-2" %}
+<!-- {% include testimonials.html bg="bg-2" %} -->
 
-{% include clients.html %}
+<!-- {% include clients.html %} -->
 
 
 {% include get-in-touch.html %}
